@@ -12,17 +12,17 @@ namespace WinForms
 {
     public partial class Form1 : Form
     {
-        private static int count;
+        private static int counter;
         public Form1()
         {
-            count = 0;
+            counter = 0;
             InitializeComponent();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            count++;
-            button1.Text = count.ToString();
+            counter++;
+            button1.Text = counter.ToString();
         }
     }
 }
