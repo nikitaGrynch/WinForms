@@ -16,7 +16,7 @@ namespace WinForms
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MoveForm());
+            Application.Run(new CurrentTime());
         }
     }
 }
