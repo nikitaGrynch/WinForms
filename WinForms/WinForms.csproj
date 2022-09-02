@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ButtonsArrary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ButtonsArrary.Designer.cs">
+      <DependentUpon>ButtonsArrary.cs</DependentUpon>
+    </Compile>
     <Compile Include="CurrentTime.cs">
       <SubType>Form</SubType>
     </Compile>
