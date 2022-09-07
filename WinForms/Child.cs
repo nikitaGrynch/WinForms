@@ -31,6 +31,8 @@ namespace WinForms
         }
 
 
+
+
         private void textBox_TextChanged(object sender, EventArgs e)
         {
             parent.text = textBox.Text;

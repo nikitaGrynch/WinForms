@@ -58,6 +58,12 @@
     <Compile Include="Child.Designer.cs">
       <DependentUpon>Child.cs</DependentUpon>
     </Compile>
+    <Compile Include="ColorDialogForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ColorDialogForm.Designer.cs">
+      <DependentUpon>ColorDialogForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="CurrentTime.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -86,6 +92,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Child.resx">
       <DependentUpon>Child.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ColorDialogForm.resx">
+      <DependentUpon>ColorDialogForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CurrentTime.resx">
       <DependentUpon>CurrentTime.cs</DependentUpon>
