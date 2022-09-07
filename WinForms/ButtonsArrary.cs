@@ -22,6 +22,7 @@ namespace WinForms
         public ButtonsArrary()
         {
             InitializeComponent();
+            this.ActiveControl = null;
             int buttonNumber = 1;
             int buttonPosX = startPosX, buttonPosY = startPosY;
             Random rnd = new Random();
@@ -42,13 +43,14 @@ namespace WinForms
 
                     button.Parent = this;
                     
-                    
                     buttonPosX += X + Y;
                     buttonNumber++;
                 }
                 buttonPosX = startPosX;
                 buttonPosY = startPosY + ((X + Y) * i);
             }
+
+            
         }
 
         private void Button_MouseDown(object sender, MouseEventArgs e)
