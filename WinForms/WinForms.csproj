@@ -52,6 +52,12 @@
     <Compile Include="ButtonsArrary.Designer.cs">
       <DependentUpon>ButtonsArrary.cs</DependentUpon>
     </Compile>
+    <Compile Include="ChangeWallpaper.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeWallpaper.Designer.cs">
+      <DependentUpon>ChangeWallpaper.cs</DependentUpon>
+    </Compile>
     <Compile Include="Child.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +69,12 @@
     </Compile>
     <Compile Include="ColorDialogForm.Designer.cs">
       <DependentUpon>ColorDialogForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CultureInfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CultureInfoForm.Designer.cs">
+      <DependentUpon>CultureInfoForm.cs</DependentUpon>
     </Compile>
     <Compile Include="CurrentTime.cs">
       <SubType>Form</SubType>
@@ -96,11 +108,29 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RichTextBoxForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RichTextBoxForm.Designer.cs">
+      <DependentUpon>RichTextBoxForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ScreenshotMaker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ScreenshotMaker.Designer.cs">
+      <DependentUpon>ScreenshotMaker.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ChangeWallpaper.resx">
+      <DependentUpon>ChangeWallpaper.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Child.resx">
       <DependentUpon>Child.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ColorDialogForm.resx">
       <DependentUpon>ColorDialogForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CultureInfoForm.resx">
+      <DependentUpon>CultureInfoForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CurrentTime.resx">
       <DependentUpon>CurrentTime.cs</DependentUpon>
@@ -126,6 +156,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RichTextBoxForm.resx">
+      <DependentUpon>RichTextBoxForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ScreenshotMaker.resx">
+      <DependentUpon>ScreenshotMaker.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
